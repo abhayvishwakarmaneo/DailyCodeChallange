@@ -41,7 +41,6 @@ public class CodeChallange28072023 {
                         sell = prices.get(i) - buy;
                         profit += sell;
                     }
-
                 }
                 else if(prices.get(i) > prices.get(i+1) && buy < prices.get(i)){
                     sell = prices.get(i) - buy;
@@ -49,11 +48,6 @@ public class CodeChallange28072023 {
                     buy = 0;
                 }
             }
-
-//            prevDay = prices.get(i-1);
-//            if(prices.get(i) > prevDay){
-//                profit += prices.get(i) - prevDay;
-//            }
         }
 
         if(profit == 0)
