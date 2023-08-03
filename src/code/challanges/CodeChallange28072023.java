@@ -25,7 +25,6 @@ public class CodeChallange28072023 {
         int profit = 0;
         int buy = 0;
         int sell = 0;
-        int prevDay = 0;
 
         for(int i = 0; i < prices.size(); i++){
             if(i == 0){
