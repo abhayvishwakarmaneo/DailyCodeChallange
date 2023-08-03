@@ -21,7 +21,7 @@ public class CodeChallange03082023 {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3, 4, 5};
         int[] pos = { 3, 2, 4, 1, 0 };
-        
+
 
 //===========Working solution========================
 
