@@ -1,4 +1,6 @@
 /.idea
 /.idea/sonarlint
+/.idea/sonarlint/issuestore/index.pb
+
 /out
 /out/production/DailyCodeChallange/code/challanges
