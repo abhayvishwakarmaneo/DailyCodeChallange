@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class IfElseDecisionMaking {
     static String compareFive(int N){

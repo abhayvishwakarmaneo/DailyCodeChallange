@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class ArmStrongNumber {
     static String armstrongNumber(int n){

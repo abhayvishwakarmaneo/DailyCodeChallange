@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 //Example 1:
 //

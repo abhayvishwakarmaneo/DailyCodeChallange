@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class SeriesAP {
     static int nthTermOfAP(int A1, int A2, int N) {

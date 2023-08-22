@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class UpperCaseConversion {
     public static String transform(String s){

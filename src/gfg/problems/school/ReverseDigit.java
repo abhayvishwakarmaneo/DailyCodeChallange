@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 //Given N,  reverse the digits of N.
 //        Example 1:

@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class ConvertStringToLowerCase {
     static String toLower(String S) {

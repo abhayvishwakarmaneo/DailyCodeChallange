@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 import java.util.Arrays;
 

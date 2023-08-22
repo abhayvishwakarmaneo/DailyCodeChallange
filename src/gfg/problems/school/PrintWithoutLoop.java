@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class PrintWithoutLoop {
     static void printTillN(int N){

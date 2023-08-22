@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class CompareTheSkills {
     public static void main(String[] args) {

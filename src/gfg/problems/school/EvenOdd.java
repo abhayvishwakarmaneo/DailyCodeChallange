@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class EvenOdd {
     static String oddEven(int N){

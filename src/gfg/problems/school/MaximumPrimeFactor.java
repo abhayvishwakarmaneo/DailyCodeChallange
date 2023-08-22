@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 //Find the maximum prime factor of a given number
 

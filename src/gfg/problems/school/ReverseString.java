@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class ReverseString {
     static String revStr(String S) {

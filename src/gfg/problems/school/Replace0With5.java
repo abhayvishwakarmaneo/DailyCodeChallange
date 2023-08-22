@@ -1,4 +1,4 @@
-package gfg.problems;
+package gfg.problems.school;
 
 public class Replace0With5 {
     public static int convertFive(int n){
