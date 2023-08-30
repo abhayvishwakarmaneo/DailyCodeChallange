@@ -8,27 +8,24 @@ public class ParenthesisChecker {
 
         System.out.println(ispar(str));
     }
-    static boolean ispar(String x)
+    static boolean ispar(String s)
     {
-        boolean flag = false;
-        Stack<Character> brackets = new Stack<>();
-        for(int i = 0; i < x.length(); i++){
-            brackets.push(x.charAt(i));
+        if (s.length() <= 1)
+            return false;
+        Stack<Character> parenthesis = new Stack();
+        boolean flag = true;
+        for (int i = 0; i < s.length(); i++) {
+            if (i == 0 || parenthesis.isEmpty() || s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
+                parenthesis.push(s.charAt(i));
+            } else if (s.charAt(i) == ')' && parenthesis.peek() == '(' || s.charAt(i) == ']' && parenthesis.peek() == '[' || s.charAt(i) == '}' && parenthesis.peek() == '{') {
+                parenthesis.pop();
+            } else {
+                parenthesis.push(s.charAt(i));
+            }
         }
-        for(int i = 0; i < brackets.size()/2; i++) {
+
+        if (!parenthesis.isEmpty()) {
             flag = false;
-            Character pop = brackets.pop();
-            if (x.charAt(i) == '{' && pop == '}') {
-                flag = true;
-            } else if (x.charAt(i) == '(' && pop == ')') {
-                flag = true;
-            } else if (x.charAt(i) == '[' && pop == ']') {
-                flag = true;
-            }
-            else{
-                flag = false;
-                break;
-            }
         }
 
         return flag;
