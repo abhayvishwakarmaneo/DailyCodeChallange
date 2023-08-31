@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class RepeatedCharacter {
     public static void main(String[] args) {
-        String S = "go";
+        String S = "geekforgeek";
         System.out.println(firstRep(S));
     }
     static char firstRep(String S){
