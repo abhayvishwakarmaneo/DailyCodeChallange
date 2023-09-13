@@ -1,3 +1,4 @@
+package code.challanges;
 //Given a rod of length n and a list of rod prices of length i, where 1 <= i <= n, find the optimal way to cut the rod into smaller rods to maximize profit.
 //        For example, consider the following rod lengths and values:
 //        Input:
